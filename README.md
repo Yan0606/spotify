@@ -52,6 +52,10 @@ Para executar este projeto localmente, você precisa seguir os seguintes passos:
 
 ## Demonstração 🎥
 
-Você pode ver uma demonstração deste projeto no seguinte endereço:
+a fazer...
+
+## Integrantes 👨‍👨‍👦‍👦
+  - <img src="https://avatars.githubusercontent.com/u/126112322?s=400&u=59abdf7171067a1f748a38ce03e5b1294e6e14ea&v=4" style="width:50px;height:50px;"> Rafael Perez Silva
+  - <img src="https://avatars.githubusercontent.com/u/116196986?v=4" style="width:50px;height:50px;"> Yan Andrade
 
 Spotify Clone Demo
