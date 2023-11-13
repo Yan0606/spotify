@@ -1,3 +1,127 @@
-h1{
-    color:blue;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(44, 44, 44);
 }
+
+/* Cabeçalho */
+.spotify-header {
+  background: #000; 
+  padding: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: flex-start; /* Alinha à esquerda da tela */
+  align-items: center;
+}
+
+.spotify-header img {
+  max-width: 7rem;
+  height: auto;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+  color: white;
+  font-size:2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+
+@media (max-width: 768px) {
+  .spotify-header {
+    padding: 40px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+}
+
+/* Formulário */
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    padding: 40px;
+    margin-top: 2rem;
+    transform: translate(-50%, -50%);
+    background: rgb(0, 0, 0);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 8px;
+    
+}
+
+label {
+  color: white  ;
+  font-size: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  border-radius: 15px;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#cadastro {
+    border-radius: 15px;
+    border: rgb(44, 44, 44), solid, 2px;
+    color: #fff;
+    background-color: #000;
+    margin-bottom: 2px;
+}
+.google-button {
+    color: #fff; 
+    border: rgb(44, 44, 44), solid, 2px; 
+    border-radius: 4px; 
+    /* cursor: pointer;         para o cursor virar ponteiro */
+    background-image: url('/img/google.png'); 
+    background-repeat: no-repeat; 
+    background-position: 10px center; 
+    background-size: 20px; 
+  }
+  .face-button {
+    color: #fff; 
+    border: rgb(44, 44, 44), solid, 2px; 
+    border-radius: 4px; 
+    /* cursor: pointer;         para o cursor virar ponteiro */
+    background-image: url('/img/facebook.png'); 
+    background-repeat: no-repeat; 
+    background-position: 10px center; 
+    background-size: 20px; 
+  }
+  .apple-button {
+    color: #fff; 
+    border: rgb(44, 44, 44), solid, 2px; 
+    border-radius: 4px; 
+    /* cursor: pointer;         para o cursor virar ponteiro */
+    background-image: url('/img/apple.png'); 
+    background-repeat: no-repeat; 
+    background-position: 10px center; 
+    background-size: 20px; 
+  }
+  
+  
