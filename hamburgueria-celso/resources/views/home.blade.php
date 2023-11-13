@@ -5,8 +5,10 @@
 @section('content')
 <link rel="stylesheet" href="/public/css/style.css">
 <header class="spotify-header">
+<a href="{{ url('principal') }}">
     <img src="/img/logo.png" alt="Logo Spotify">
-  </header>
+</a>
+</header>
 
 <form method="POST" action="/">
     @csrf 
