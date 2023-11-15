@@ -78,7 +78,7 @@ h3{
 
 .container2 {
     width: 17.5rem;
-    height: 22rem;
+    height: 24.76rem;
     background-color: rgb(18, 18, 18);
     border-radius: 15px;
     padding: 16px;
@@ -104,7 +104,7 @@ h3{
     background-color: rgb(36, 36, 36);
     border-radius: 15px;
     position: relative;
-    top: -21rem;/* Ajuste para posicionar sobre a primeira div */
+    top: -23rem;/* Ajuste para posicionar sobre a primeira div */
     padding: 10px;
     margin-left: 1rem;
     margin-top: 1rem;

@@ -5,7 +5,7 @@
 @section('content')
 <link rel="stylesheet" href="/public/css/style.css">
 <header class="spotify-header">
-<a href="/nav">
+<a href="/main">
     <img src="/img/logo.png" alt="Logo Spotify">
 </a>
 </header>

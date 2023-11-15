@@ -23,6 +23,9 @@ Route::get('/cliente', [HamburgueriaControlador::class, 'verClientes']);
 Route::get('/nav', function (){
     return view ('nav');
 });
+Route::get('/main', function (){
+    return view ('main');
+});
 
 
 Route::get('/home',[HamburgueriaControlador::class, 'verHome']);
