@@ -73,11 +73,12 @@
     width: 13rem;
     height: 19rem;
     background-color: rgb(23, 23, 23);
-    border-radius: 15px;
-    margin: 3%;
+    border-radius: 10px;
+    margin: 1.5%;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column
+    
 }
 
 .card-music:hover{
@@ -106,8 +107,8 @@
 
     }
 .oculto img{
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1rem;
+    height: 1rem;
     border-radius: 0%;
 
 }
