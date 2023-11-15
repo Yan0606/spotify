@@ -18,10 +18,11 @@ use App\Http\Controllers\HamburgueriaControlador;
 Route::get('/', [HamburgueriaControlador::class, 'index']);
 Route::post('/', [HamburgueriaControlador::class, 'cadastrar']);
 Route::get('/cliente', [HamburgueriaControlador::class, 'verClientes']);
-Route::get('/principal', 'App\Http\Controllers\PrincipalController@index');
 
 
-Route::get('/cardapio', [HamburgueriaControlador::class, 'verCardapio']);
+Route::get('/nav', function (){
+    return view ('nav');
+});
 
 
 Route::get('/home',[HamburgueriaControlador::class, 'verHome']);

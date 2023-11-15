@@ -5,7 +5,7 @@
 @section('content')
 <link rel="stylesheet" href="/public/css/style.css">
 <header class="spotify-header">
-<a href="{{ url('principal') }}">
+<a href="/nav">
     <img src="/img/logo.png" alt="Logo Spotify">
 </a>
 </header>
