@@ -22,7 +22,11 @@
             <img src="/img/tue.jpg">
             <h3>Hoje está nos top's Hits</h3>
             <p>Matuê o trapper mais escutado da América Látina.</p>
-            <button class="oculto"><img src="/img/play.png"></button>
+            
+            <audio class="oculto" autoplay="autoplay" controls>
+                <source src="/audio/Matuê  Cogulândia.m4a" type="audio/mp3"/>
+                Não foi
+            </audio>
         </div>
     </div>
 </div>
@@ -112,7 +116,10 @@
     border-radius: 0%;
 
 }
-
+audio::-webkit-media-controls-panel {
+            background-color: rgb(30, 215, 96); /* Cor do painel de controle */
+            border-radius: 5px; /* Borda arredondada */
+        }
 
 
 </style>

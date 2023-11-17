@@ -10,6 +10,10 @@ a {
     color: white;
 
 }
+h3{
+    color: white;
+    margin:0;
+}
 
 .container1 {
     width: 280px;
@@ -35,7 +39,7 @@ a {
 
 .container2 {
     width: 17.5rem;
-    height: 17.5rem;
+    height: 24.76rem;
     background-color: rgb(18, 18, 18);
     border-radius: 15px;
     padding: 16px;
@@ -51,7 +55,6 @@ a {
 }
 
 .container2 p {
-    margin-right: 4rem;
     margin-top: 3px;
     color: white;
 }
@@ -62,9 +65,10 @@ a {
     background-color: rgb(36, 36, 36);
     border-radius: 15px;
     position: relative;
-    top: -14rem;/* Ajuste para posicionar sobre a primeira div */
+    top: -23rem;/* Ajuste para posicionar sobre a primeira div */
     padding: 10px;
     margin-left: 1rem;
+    margin-top: 1rem;
 }
 
 
